@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center text-center py-20 px-6 ">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Welcome to <span className="text-blue-600">DocConnect</span>
+          Welcome to <span className="text-blue-600">MedCare</span>
         </h1>
         <p className="text-gray-600 text-lg max-w-xl mb-6">
           Book appointments with trusted doctors anytime, anywhere. Fast, simple
