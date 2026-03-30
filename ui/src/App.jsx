@@ -7,6 +7,7 @@ import Signup from "./pages/signup";
 import Appointment from "./pages/appointment";
 import Navbar from "./components/Nevbar";
 import Booking from "./components/Booking";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/booking/:id" element={<Booking />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

@@ -8,10 +8,13 @@ function Booking() {
     return <div>No doctor selected</div>;
   }
 
+  function handleClick() {
+    alert("Coming Soon");
+  }
+
   return (
     <div>
-      <h1>Booking</h1>
-      <div className="flex gap-10">
+      <div className="flex gap-10 ml-4 my-6">
         <div className="w-[300px] rounded-2xl h-[200px]">
           <img
             src={doctor.image}
@@ -28,7 +31,10 @@ function Booking() {
             <div className="text-xl font-bold bg-yellow-300 text-center px-2">
               {doctor.charge}
             </div>
-            <button className="bg-blue-800 px-4 py-2 rounded-4xl text-white font-bold cursor-pointer active:outline-2 active:outline-blue-700 ">
+            <button
+              onClick={() => handleClick()}
+              className="bg-blue-800 px-4 py-2 rounded-4xl text-white font-bold cursor-pointer active:outline-2 active:outline-blue-700 "
+            >
               Book Now
             </button>
           </div>
